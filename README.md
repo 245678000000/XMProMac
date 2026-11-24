@@ -1,13 +1,28 @@
-# XMPro for macOS
+<div align="center">
+  <img width="128" height="128" src="docs/branding/app-icon.png" alt="XMPro for macOS">
+  <h1>XMPro for macOS</h1>
+  <p>基于 <a href="https://github.com/angusdevgo/XMPro">angusdevgo/XMPro</a> 的原生 SwiftUI 轻量 macOS 听书客户端</p>
 
-基于 [angusdevgo/XMPro](https://github.com/angusdevgo/XMPro) 喜马拉雅极速版协议打造的原生 macOS 轻量听书客户端，使用纯 Swift 6 + SwiftUI + AppKit + AVFoundation 零第三方重型依赖构建。
+  <p>
+    <a href="https://github.com/245678000000/XMProMac/releases/latest"><img src="https://img.shields.io/github/v/release/245678000000/XMProMac?label=Release" alt="Release"></a>
+    <img src="https://img.shields.io/badge/macOS-14.0%2B%20Apple%20Silicon-black?logo=apple" alt="macOS 14+">
+    <img src="https://img.shields.io/badge/Swift-6%20%C2%B7%20SwiftUI-F05138?logo=swift&logoColor=white" alt="Swift 6">
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-blue" alt="License"></a>
+  </p>
+</div>
+
+<p align="center">
+  <img src="docs/screenshots/preview-main.png" alt="XMPro for macOS 主界面预览" width="920">
+</p>
+
+---
 
 ## 特性概览
 - **原生苹果播客美学**：磨砂侧边栏、统一工具栏搜索、封面动态柔和氛围光晕、底部悬浮毛玻璃播控条与沉浸式播放抽屉，跟随系统深浅色模式。
 - **常驻菜单栏控制**：关闭主窗口自动退居菜单栏安静后台播放，点击菜单栏声波图标弹出迷你播控卡片；原生接入 macOS 控制中心、锁屏封面、AirPods 与键盘多媒体键。
 - **完整听书闭环**：发现频道与推荐流、专辑/声音搜索、专辑详情与 100 集分段选集、书单（听更新 / 订阅 / 历史 / 收藏）、倍速（0.5×–3.0×）、定时关闭、音质切换、跳过头尾（智能静音检测 / 手动比例裁剪）、双端进度同步。
 - **账号与听时**：支持一键导入 XMPro Cookie 或手机号短信验证码登录（内嵌隔离 CSP 的原生 `WKWebView` 安全滑块）；支持听时余额查询、福利档位明细与后台自动补领。
-- **极致轻量**：成品 `XMPro.app` 约 6.1 MB，零外部运行时依赖。
+- **极致轻量**：纯原生系统框架构建，无 Electron / JVM 运行时，压缩安装包仅约 **2.3 MB**（解压后 `XMPro.app` 约 6.1 MB）。
 
 ## 安装使用
 1. 前往 [Releases](https://github.com/245678000000/XMProMac/releases) 下载 `XMPro-1.0.0-macOS-arm64.zip`（需 macOS 14.0+，Apple Silicon）。
