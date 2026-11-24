@@ -1,0 +1,25 @@
+# SwiftPM 构建与包缓存
+.build/
+.swiftpm/
+Package.resolved
+
+# 打包产物与临时文件
+dist/
+*.app
+*.zip
+*.dmg
+*.icns
+
+# macOS 与编辑器文件
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# 安全防泄漏：本地运行期凭据文件
+.seal.key
+credentials.sealed
