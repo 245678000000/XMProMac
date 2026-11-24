@@ -77,7 +77,6 @@ public final class AppStore {
     public var openedAlbumId: String? = nil
     public var showPlayerDrawer: Bool = false
     public var showLoginSheet: Bool = false
-    public var showSettingsSheet: Bool = false
     public var toastMessage: String? = nil
     public var ambientColor: Color = Color.accentColor
 
